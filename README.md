@@ -12,7 +12,7 @@ Task 2, on the other hand, requires you to rate the appropriateness of a stateme
 
 To run the annotation interface on your local machine, please first clone this repository and install the necessary depencencies with the command
 ```
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 Then, run ```python app.py``` if you would like to start Task1, or ```python app_range.py``` if you prefer to do Task2. In both, cases, you will see an output like the following on your terminal: 
