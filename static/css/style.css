@@ -1,0 +1,50 @@
+body {
+    font-family: 'Century Gothic', sans-serif;
+    margin: 20px 40px;
+    font-size: large;
+
+
+}
+
+h1 {
+    font-family: 'Century Gothic', sans-serif;
+    
+}
+
+
+input[type="text"] {
+    width: 10%;
+}
+
+input[type="submit"], input[type="button"] {
+    
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    padding: 10px;
+    font-size: large;
+}
+
+input[type="radio"] {
+
+    margin-top: 25px;
+}
+
+
+
+.button-container {
+    display: flex;
+    
+}
+
+img {
+    max-height: 20em;
+}
+
+.statement {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+

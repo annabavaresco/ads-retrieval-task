@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ad annotation</title>
+
+<link rel= "stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+    <h1>Ad annotation</h1>
+
+    <p>
+        Image id: {{image_id}} <br>
+    </p>
+    
+    <p><img src= "{{ image_path }}" alt="Ad image"> <br>
+
+        <input type="button" onclick="window.open('{{image_url}}','_blank');" value="See bigger image" /> <br>
+    
+    </p>
+    <p>
+        
+        <form action="/annotate" method="POST">
+
+              <legend><b>What should you do according to this ad, and why?</b></legend>
+        
+              <label>
+                <input type="radio" name="answer" value="{{ option_1 }}">
+                {{ option_1 }}
+              </label><br>
+        
+              <label>
+                <input type="radio" name="answer" value="{{ option_2 }}">
+                {{ option_2 }}
+              </label><br>
+        
+              <label>
+                <input type="radio" name="answer" value="{{ option_3 }}">
+                {{ option_3 }}
+              </label><br>
+        
+
+        
+            <input type="submit" value="Submit">
+        </form>
+        
+
+        <div class="button-container">
+            
+            <form action="/back"> <input type="submit" value="Prev"/></form>
+            <!-- <form action="/flag"> <input type="submit" value="Flag"/></form> -->
+            <form action="/next"> <input type="submit" value="Next"/></form>
+
+        </div>
+
+
+   
+        
+    </p>
+</body>
