@@ -4,13 +4,13 @@
 
 This repository contains code for two annotation tasks. <br>
 
-Task 1 is a multiple choice scenario where you will be presented with one ad and one question, and you are requested to choose your aswer among three given options. The samples to annotate are 10. <br>
+Task 1 is a multiple-choice scenario where you will be presented with one ad and one question, and you are requested to choose your answer among three given options. The samples to annotate are 10. <br>
 
 Task 2, on the other hand, requires you to rate the appropriateness of a statement with respect to an ad. You should express your rating as a percentage, with 0 indicating the lowest appropriateness and 100 the highest. The samples to annotate are 10 ads, but each of them can be associated with 3 different statements so, in practice, you will give 30 ratings and will see the same ad 3 times. 
 
 ## Instructions to run the code
 
-To run the annotation interface on your local machine, please first clone this repository and install the necessary depencencies with the command
+To run the annotation interface on your local machine, please first clone this repository and install the necessary dependencies with the command
 ```
 pip install -r requirements.txt
 ```
@@ -26,7 +26,7 @@ Then, run ```python app.py``` if you would like to start Task1, or ```python app
     * Debugger is active!
     * Debugger PIN: 694-371-605
 ```
-Now copy the given URL (in this case, ```http://127.0.0.1:5000``) on your preferred browser and you will be able to see the annotation intrface. <br>
+Now copy the given URL (in this case, http://127.0.0.1:5000) on your preferred browser and you will be able to see the annotation interface. <br>
 
 All answers are automatically saved whenever you press the "submit" button, so feel free to pause and resume the task whenever you want. The interface will resume from the last annotated example, so you will not have to redo everything from the beginning if you kill the interface.<br>
 
